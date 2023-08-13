@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0vh;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("AnupDangi_2333319-Image.jpg");
+
+}
+
+#button{
+    width: 100px;
+    height:30px;
+    margin: 0px;
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 10px;
+    font-size: 35px;
+    color: aliceblue;
+}
+#search{
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 5px rgb(57, 136, 167);
+}
+.headings{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color:rgb(28, 76, 210);
+    flex-direction: column;
+}
+.city{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    color:rgb(6, 16, 20);
+}
+.status{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color:rgb(0, 0, 1);
+
+}
+.temp{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color:rgb(0, 0, 1);
+}
+.humid{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color:rgb(0, 0, 1);
+
+}
+.wind{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color:rgb(0, 0, 1);
+
+}
+.pressure{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color:#000001;
+}
+.date{
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+        color:#000001;
+}
+
